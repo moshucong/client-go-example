@@ -1,0 +1,11 @@
+package: client-go-example
+import:
+- package: k8s.io/apimachinery
+  subpackages:
+  - pkg/api/errors
+  - pkg/apis/meta/v1
+- package: k8s.io/client-go
+  version: v6.0.0
+  subpackages:
+  - kubernetes
+  - rest
